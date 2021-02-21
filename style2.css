@@ -1,0 +1,403 @@
+body{
+    background-color:rgb(240,240,240);
+}
+a{
+ text-decoration: none;
+ 
+
+}
+a:active{
+    color:#1E90FF;
+}
+span{
+ text-decoration: line-through;
+}
+Strong{
+ font-size: 20px;
+ color: #0000CD;
+}
+/*////////////////////////////////////////////////////////////*/
+header{
+    background-color:rgb(255,255,255);
+    
+    height: 55px;
+    border:3px solid white;
+}
+
+
+
+
+
+
+
+.inp_text{
+    position: absolute;
+    right: 70px;
+    top: 17px;
+    
+    
+    height: 34px;
+    width:500px;
+    
+    border:1.5px #1133b1 solid;
+    border-radius: 20px;
+    
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    
+}
+.inp_text:focus{
+    height: 37px;
+    width: 510px;
+}
+
+.iconSearch{
+    position:absolute;
+    top:17px;
+    right: 70px;
+    
+    width: 50px;
+    height:35px;
+    
+    border-bottom-right-radius:20px;
+    
+    }
+
+    /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+nav {
+    margin-top: 10px;
+    border:0.2px black thin;
+    background-color: rgb(255,255,255);
+    
+    height:  45px;
+}
+nav ul{
+ position: relative;
+ top: -15px;
+ 
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+}
+nav li{
+ 
+ width: 250px;
+ height:45px;
+ 
+ 
+}
+.sousNav{
+ width: 250px;
+ height: 100%;
+ text-align: center;
+ cursor: pointer;
+ 
+ background-color: white;
+ 
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+.sousNavCasP{
+ width: 250px;
+ height: 100%;
+ text-align: center;
+ cursor: pointer;
+ 
+ background-color: white;
+  transition-property: all;
+ transition-duration: 0.5s;
+}
+
+.sousNav span{
+ position: relative;
+ top: -12px;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: bold;
+ 
+}
+.sousNavCasP .casP{
+ position: relative;
+ top: -5px;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.sousNav:hover{
+ background-color: blue;
+ color: white;
+}
+.sousNavCasP:hover{
+ background-color: blue;
+ color: white;
+ 
+}
+:hover .conIns{
+ display: block;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+.categories{
+    margin-top:20px;
+    height:700px;
+    width: 250px;
+    background-color:white;
+}
+h3{
+    text-align: center;
+    color:#1133b1;
+    font-size: 25px;
+    
+}
+.lign{
+   
+    height: 3px;
+    width: 250px;
+    background-color: #1133b1;
+}
+
+section ul{
+    list-style: none;
+    
+}
+ul li{
+    margin-top:15px;
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    
+   transition-property: all;
+    transition-duration: 0.5s;
+}
+ section ul li a:hover{
+    font-size:20px; 
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.content{
+ z-index: 0;
+    position: absolute;
+    top:145px;
+    right: 20px;
+    
+    width: 980px;
+    height: 1500px;
+    
+    background-color: white;
+}
+.tendence{
+   height:30px;
+   width: 600px;
+   
+   
+   background-color:#1133b1;
+   color: white;
+   
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+ letter-spacing: 1.3px;
+   
+   border: 3px white outset;
+   border-bottom-right-radius: 20px;
+   
+   
+   
+}
+.tendence a{
+ text-decoration: none;
+ color: white;
+ 
+ font-size: 12px;
+ margin-left: 300px;
+ 
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+.tendence a:hover{
+ font-size: 14px;
+}
+.content ul{
+ display: flex;
+}
+.content ul li{
+ flex-direction: column;
+ margin-left: 30px;
+}
+.prod{
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+.prod img{
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+
+.prod:hover img{
+ width: 210px;
+ height: 290px;
+}
+.prod:hover{
+ 
+ box-shadow: 0px 0px  5px #0000CD;
+ font-size: 17px;
+ cursor: pointer;
+}
+/*////////////////////////////////////////////////////////////////////*/
+.offre{
+ 
+ 
+   height:30px;
+   width: 600px;
+   
+   
+   background-color:#1133b1;
+   color: white;
+   
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+ letter-spacing: 1.3px;
+   
+   border: 3px white outset;
+   border-bottom-right-radius: 20px;
+}
+.offre a{
+ position : relative;
+ bottom: 10px;
+ 
+ text-decoration: none;
+ color: white;
+ 
+ font-size: 12px;
+ margin-left: 350px;
+ 
+ 
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+.offre a:hover{
+ font-size: 14px;
+}
+/*////////////////////////////////////////////////////////////////*/
+.article{
+  height:30px;
+   width: 600px;
+   
+   
+   background-color:#1133b1;
+   color: white;
+   
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+ letter-spacing: 1.3px;
+   
+   border: 3px white outset;
+   border-bottom-right-radius: 20px;
+   
+}
+.article a{
+ position : relative;
+ bottom: 2px;
+ 
+ text-decoration: none;
+ color: white;
+ 
+ font-size: 12px;
+ margin-left: 300px;
+ 
+ 
+ transition-property: all;
+ transition-duration: 0.5s;
+}
+.article a:hover{
+ font-size: 14px;
+}
+.home_article{
+ font-size: 18px;
+}
+.lire_plus{
+ text-decoration: underline;
+ font-size: 19px;
+}
+.flotter_image{
+ position: relative;
+ bottom: 30px;
+ 
+ float:right;
+}
+.content h3{
+ background-color:blue;
+ color: white;
+}
+/**********************************************************************/
+footer{
+ margin-top: 1000px;
+ height: 670px;
+ width: 1250px;
+ 
+ background-color:blue;
+ 
+ color: white;
+}
+footer ul{
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ 
+}
+footer li{
+ margin-left: 100px;
+}
+footer table{
+ text-align: center;
+}
+footer a{
+color: yellow;
+text-decoration: underline;
+}
+.ligne_footer{
+ width: 1250px;
+ height: 3px;
+ 
+ background-color: red;
+ 
+}
+footer h3{
+ color: white;
+ 
+}
+.inp_text_foot{
+ margin-left: 350px;
+ 
+ height: 30px;
+ width: 520px;
+ 
+ border: 2px ridge red;
+ 
+ border-bottom-left-radius: 20px;
+ border-top-left-radius: 20px;
+ }
+ 
+ .inp_butt_foot{
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  
+  
+ }
+ 
+ .social_network{
+  margin-left: 500px;
+ }
